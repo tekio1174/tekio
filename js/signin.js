@@ -5,7 +5,7 @@ function login() {
     formData.append('password', document.getElementById('password').value);
     
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://tekio.kedatonnusantara.id/api/login', true);
+    xhr.open('POST', 'https://tekioapi.kedatonnusantara.id/api/login', true);
     xhr.setRequestHeader('Accept', 'application/json');
 
     xhr.onload = function () {
