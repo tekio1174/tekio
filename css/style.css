@@ -766,5 +766,5 @@ button:focus {
 
 
     .background {
-      background-image: url('back1.png');
+      background-image: url('../img/back1.png');
       background-repeat: repeat; /* Elakkan pengulangan imej */
