@@ -11,7 +11,7 @@ function register() {
 	formData.append('photo', document.getElementById('photo').files[0]);
 
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://tekio.kedatonnusantara.id/api/register', true);
+    xhr.open('POST', 'https://tekioapi.kedatonnusantara.id/api/register', true);
     xhr.setRequestHeader('Accept', 'application/json');
 
     xhr.onload = function () {
