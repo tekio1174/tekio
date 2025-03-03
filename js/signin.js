@@ -13,7 +13,8 @@ function login() {
             let response = JSON.parse(xhr.responseText);
             alert(response.message);
             localStorage.setItem('token', response.token);
-			window.location.href = "signup.html";
+            localStorage.setItem('login', 'login');
+			window.location.href = "/";
         } else {
             alert('Login gagal!');
         }

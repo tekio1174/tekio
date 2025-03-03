@@ -19,7 +19,9 @@ function register() {
         if (xhr.status === 201) {
             alert(response.message);
             localStorage.setItem('token', response.token);
-			window.location.href = "signin.html";
+            localStorage.setItem('token', response.token);
+            localStorage.setItem('login', 'login');
+            window.location.href = "/";
         } else {
             alert('Pendaftaran gagal! Sila periksa input anda.');
         }
