@@ -485,7 +485,7 @@ a.add img {
     height: 0;
     border-style: solid;
     border-width: 0 12px 15px 12px;
-    border-color: transparent transparent #17c5fe transparent;
+    border-color: transparent transparent #ef4d38 transparent;
     -webkit-transform: rotate(37deg);
     -ms-transform: rotate(37deg);
     transform: rotate(37deg);
@@ -497,7 +497,7 @@ a.add img {
     line-height: 1.5;
     font-weight: 400;
     padding: 15px;
-    background: #17c5fe;
+    background: #ef4d38;
     display: inline-block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -778,6 +778,6 @@ button:focus {
 
 
     .background {
-      background-image: url('../img/back1.png');
+      background-image: url('../img/bck3.png');
       background-repeat: repeat; /* Elakkan pengulangan imej */
 	}
