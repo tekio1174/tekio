@@ -14,7 +14,7 @@ function login() {
             alert(response.message);
             localStorage.setItem('token', response.token);
             localStorage.setItem('login', 'login');
-			window.location.href = "/";
+			window.location.href = "/tekio";
         } else {
             alert('Login gagal!');
         }
