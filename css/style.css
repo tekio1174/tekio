@@ -213,11 +213,20 @@ message-area
     min-height: calc(100% - 1rem);
 }
 
+.list-icon{	
+    outline: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 70px;
+    float: left;
+    padding: 15px;	
+}
+
 .chatlist {
     outline: 0;
     height: 100%;
     overflow: hidden;
-    width: 300px;
+    width: 400px;
     float: left;
     padding: 15px;
 }
@@ -476,7 +485,7 @@ a.add img {
     height: 0;
     border-style: solid;
     border-width: 0 12px 15px 12px;
-    border-color: transparent transparent #4b7bec transparent;
+    border-color: transparent transparent #17c5fe transparent;
     -webkit-transform: rotate(37deg);
     -ms-transform: rotate(37deg);
     transform: rotate(37deg);
@@ -488,7 +497,7 @@ a.add img {
     line-height: 1.5;
     font-weight: 400;
     padding: 15px;
-    background: #4b7bec;
+    background: #17c5fe;
     display: inline-block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -711,6 +720,9 @@ button:focus {
         display: block;
         margin-right: 5px;
     }
+	.list-icon{
+		display: none;
+	}
     .chatlist {
         width: 100%;
     }
@@ -766,5 +778,6 @@ button:focus {
 
 
     .background {
-      background-image: url('./img/back1.png');
+      background-image: url('../img/back1.png');
       background-repeat: repeat; /* Elakkan pengulangan imej */
+	}
