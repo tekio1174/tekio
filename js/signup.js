@@ -17,7 +17,7 @@ function register() {
     xhr.onload = function () {
         let response = JSON.parse(xhr.responseText);
         if (xhr.status === 201) {
-            alert(response.message);
+            console.log(response.message);
             localStorage.setItem('token', response.token);
             localStorage.setItem('token', response.token);
             localStorage.setItem('login', 'login');

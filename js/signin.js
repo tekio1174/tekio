@@ -11,7 +11,7 @@ function login() {
     xhr.onload = function () {
         if (xhr.status === 200) {
             let response = JSON.parse(xhr.responseText);
-            alert(response.message);
+            console.log(response.message);
             localStorage.setItem('token', response.token);
             localStorage.setItem('login', 'login');
 			window.location.href = "/tekio";
